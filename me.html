@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Del Fiorista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emilia">
+    <link href="tyylit.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Del Fiorista</h1>
+        <nav id="topnav" class="navbar">
+            <a href="index.html">Kukkakauppa</a>
+            <a href="galleria.html">Galleria</a>
+            <a href="toimitus.html">Toimitus</a>
+            <a href="me.html">Me</a>
+            <a href="otayhteytta.html">Ota yhteyttä</a>
+        </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-navicon"></i></a>
+    </header>
+
+    <main>
+        <h2>Yrityksestä</h2>
+        <p>Vuonna 1992 perustetun Del Fioristan valttina on aina ollut vahva sidontataito, palveluhenkisyys, korkealaatuiset kukat ja idearikkaus.<br><br>Tällä tiellä on jatkanut vuodesta 2004 myös Del Fioristan nykyinen omistaja Kukka Kukkainen, joka valmistui floristiksi puutarhaoppi&shy;laitokselta 1996.<br><br>Yrityksen perustajan juuret ovat Italiasta. Siitä nimi Del Fiorista.</p>
+        <img id="me" src="kuvat/55.jpg" alt="me">
+    </main>
+
+    <footer>
+        <div class="flex_container">
+            <div class="flex_item">
+                <h2>Del Fiorista</h2>
+                <p>Runeberginkatu 30 <br>00100 Helsinki <br>Puh. 09 334456 <br>kukkakauppa@delfiorista.fi</p>
+            </div>
+            <div class="flex_item">
+                <h3>Avoinna</h3>
+                <p>Ma-Pe 10-18 <br>La 10-16</p>
+            </div>
+            <div class="flex_item">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

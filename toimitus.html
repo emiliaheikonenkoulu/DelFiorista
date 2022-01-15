@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Del Fiorista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emilia">
+    <link href="tyylit.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Del Fiorista</h1>
+        <nav id="topnav" class="navbar">
+            <a href="index.html">Kukkakauppa</a>
+            <a href="galleria.html">Galleria</a>
+            <a href="toimitus.html">Toimitus</a>
+            <a href="me.html">Me</a>
+            <a href="otayhteytta.html">Ota yhteyttä</a>
+        </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-navicon"></i></a>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="column">
+                <h3>Mihin toimitamme kukkiamme?</h3>
+                <p>Helsinki, Espoo, Vantaa, Kauniainen, Kirkkonummi, Vihti, Nurmijärvi, Tuusula, Kerava, Järvenpää ja Sipoo.</p>
+            </div>
+            <div class="column">
+                <h3>Toimitu&shy;sehdot</h3>
+                <p>Pääosin kuljetukset tapahtuvat päivittäin klo 16 tai 20 mennessä. Korotetulla toimitus&shy;maksulla klo 10 tai 13 mennessä. Tilaus on hyvä tehdä viimeistään 2-3 päivää aikaisemmin. Enemmän tietoa soittamalla tai lähettämällä sähköpostia.</p>
+            </div>
+            <div class="column">
+                <h3>Toimitus&shy;hinnat</h3>
+                <p>Kuljetushinta 8-12 euroa paikka&shy;kunnasta riippuen. Pikatoi&shy;mitukset Helsingin, Espoon ja Vantaan alueelle 18 euroa.</p>
+            </div>
+            <div class="column">
+                <img id="webshop" src="kuvat/50.jpg" alt="webshop">
+                <img id="webshop2" src="kuvat/53.jpg" alt="webshop2">
+            </div>
+        </div>
+        <h2>Usein kysyttyä</h2>
+        <p><b>OLEN TILANNUT TUOTTEEN SAAJALLE, MUTTA HÄN EI OLE KOTONA?</b>Kauppias toimittaa tilauksen siihen osoitteeseen, joka on tilauksessa ilmoitettu. Toimitusmaksu sisältää yhden toimituskerran. Jos saaja ei ole paikalla, niin tilaus voidaan jättää oven taakse, naapurille tai siitä jätetään noutoilmoitus saajalle.<br><b>MIKSI TILAAMANI TUOTE EI OLE TÄYSIN SAMA KUIN KUVASSA?</b><br>Kukka on tuoretuote ja kukkasidonta on käsityötä. Täysin samanlaisia kasveja ei aina ole saatavilla vuodenajoista ja sesongeista johtuen. Ammatti&shy;taitoinen kukkakauppias käyttää omaa harkintaa ja ammattitaitoa siihen, että saat vastaavan tuotteen, joka sillä hetkellä on mahdollista saada.</p>
+        <img id="asetelma" src="kuvat/1295_large.jpg" alt="asetelma">
+    </main>
+
+    <footer>
+        <div class="flex_container">
+            <div class="flex_item">
+                <h2>Del Fiorista</h2>
+                <p>Runeberginkatu 30 <br>00100 Helsinki <br>Puh. 09 334456 <br>kukkakauppa@delfiorista.fi</p>
+            </div>
+            <div class="flex_item">
+                <h3>Avoinna</h3>
+                <p>Ma-Pe 10-18 <br>La 10-16</p>
+            </div>
+            <div class="flex_item">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

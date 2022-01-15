@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Del Fiorista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emilia">
+    <link href="tyylit.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Del Fiorista</h1>
+        <nav id="topnav" class="navbar">
+            <a href="index.html">Kukkakauppa</a>
+            <a href="galleria.html">Galleria</a>
+            <a href="toimitus.html">Toimitus</a>
+            <a href="me.html">Me</a>
+            <a href="otayhteytta.html">Ota yhteyttä</a>
+        </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-navicon"></i></a>
+    </header>
+
+    <main>
+        <h4>Galleria</h4>
+        <p>Ota täältä inspiraatioita seuraavaan tilaukseesi!</p>
+        <p>Upeita kimppuja, laadukkaita kukkia ja rentoa fiilistä niin juhlaan kuin arkeen.</p>
+        <img id="kukkakimppu" src="kuvat/1202_large.jpg" alt="kukkakimppu">
+        <img id="morsiuskimppu" src="kuvat/1244_large.jpg" alt="morsiuskimppu">
+        <img id="ruusukimppu" src="kuvat/18_large.jpg" alt="ruusukimppu">
+        <img id="ruusu" src="kuvat/1277_large.jpg" alt="ruusu">
+        <img id="kimput" src="kuvat/1009_large.jpg" alt="kimput">
+        <img id="floristi" src="kuvat/1124_large.jpg" alt="floristi">
+        <img id="seppele" src="kuvat/1101_large.jpg" alt="seppele">
+        <img id="ruusu2" src="kuvat/1276_large.jpg" alt="ruusu2">
+        <img id="tytto" src="kuvat/1142_large.jpg" alt="tytto">
+
+    </main>
+
+    <footer>
+        <div class="flex_container">
+            <div class="flex_item">
+                <h2>Del Fiorista</h2>
+                <p>Runeberginkatu 30 <br>00100 Helsinki <br>Puh. 09 334456 <br>kukkakauppa@delfiorista.fi</p>
+            </div>
+            <div class="flex_item">
+                <h3>Avoinna</h3>
+                <p>Ma-Pe 10-18 <br>La 10-16</p>
+            </div>
+            <div class="flex_item">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

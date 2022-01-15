@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Del Fiorista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emilia">
+    <link href="tyylit.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Del Fiorista</h1>
+        <nav id="topnav" class="navbar">
+            <a href="index.html">Kukkakauppa</a>
+            <a href="galleria.html">Galleria</a>
+            <a href="toimitus.html">Toimitus</a>
+            <a href="me.html">Me</a>
+            <a href="otayhteytta.html">Ota yhteyttä</a>
+        </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-navicon"></i></a>
+    </header>
+
+    <main>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Miten voimme olla avuksi?</h2>
+                <p>Vastaamme mielellämme kaikkiin kysymyksiinne.</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img alt="lila" src="kuvat/14_Kaupasta.jpg" style="width: 100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">Nimi (pakollinen)</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Nimesi">
+                        <label for="email">Sähköposti (pakollinen)</label>
+                        <input type="text" id="email" name="email" placeholder="Sähköpostiosoitteesi..">
+                        <label for="subject">Aihe</label>
+                        <select id="subject" name="subject">
+                            <option value="juhlat">Juhlat</option>
+                            <option value="kukkalahetys">Kukkalähetys</option>
+                            <option value="kysymys">Kysymys</option>
+                        </select>
+                        <label for="message">Viesti</label>
+                        <textarea id="message" name="message" placeholder="Kirjoita tähän.." style="height:170px"></textarea>
+                        <input type="submit" value="Lähetä">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex_container">
+            <div class="flex_item">
+                <h2>Del Fiorista</h2>
+                <p>Runeberginkatu 30 <br>00100 Helsinki <br>Puh. 09 334456 <br>kukkakauppa@delfiorista.fi</p>
+            </div>
+            <div class="flex_item">
+                <h3>Avoinna</h3>
+                <p>Ma-Pe 10-18 <br>La 10-16</p>
+            </div>
+            <div class="flex_item">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+</body></html>
